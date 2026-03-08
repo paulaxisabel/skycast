@@ -1,7 +1,8 @@
 {
+  "installCommand": "npm install",
   "buildCommand": "npx vite build",
   "outputDirectory": "dist",
-  "framework": "vue",
+  "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
